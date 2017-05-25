@@ -1,0 +1,114 @@
+/* CUSTOM FONTS */
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:600');
+
+.header {
+font-family: 'Play', serif;
+}
+
+/* NAVIGATION SCIPTS */
+
+nav {
+background-color: #000000;
+
+margin: -8px;
+padding: 40px;
+text-align: center;
+width: 100%;
+}
+
+nav ul {
+list-style-type: none;
+background-color: #000000;
+font-color: #FFFFFF;
+font-weight: bold;
+padding: 16px;
+display:inline;
+}
+
+nav ul li{
+display:inline;
+padding-right: 4px;
+padding-left: 16px;
+}
+
+.notlast{
+border-right: 4px solid #FFFFFF;
+padding: 25px;
+}
+
+/* LINK SCRIPTS */
+
+a:visited {
+color: #FFFFFF;
+}
+
+a:link {
+color: #FFFFFF;
+text-decoration:none
+}
+
+
+/*MAIN SECTIONS SCRIPTS*/
+
+html {
+background: #0eacef;
+}
+
+.title {
+text-align: center;
+font-color: #FFFFFF;
+font-size: 36px;
+}
+
+.title p {
+font-size: 16px;
+line-height:4px;
+}
+
+
+article {
+background-color: #0094ea;
+padding: 16px;
+margin: 16px;
+border-radius: 8px;
+}
+
+section {
+background-color: #5ec3ff;
+padding: 8px;
+border-radius: 12px;
+border: 4px solid #0094ea;
+overflow: hidden;
+}
+
+h1 {
+font-family: 'Orbitron', serif;
+font-color: #FFFFFF;
+}
+
+h2 {
+font-family: 'Advent Pro', serif;
+font-size: 28px;
+}
+
+p {
+font-family: 'Ropa Sans', serif;
+font-size: 20px;
+}
+
+/*MISC*/
+
+img {
+padding: 8px;
+border-radius: 18px;
+contain: strict;
+float: left;
+}
+
+.slant {
+font-style: italic;
+letter-spacing: 2px;
+}
